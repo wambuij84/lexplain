@@ -1,0 +1,15 @@
+{
+  "routes": [
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/api/suggest", "dest": "/api/suggest" },
+    { "src": "/api/policies", "dest": "/api/policies" },
+    { "src": "/api/suggestions", "dest": "/api/suggestions" },
+    { "src": "/api/alerts", "dest": "/api/alerts" },
+    { "src": "/lexplain-logo.png", "dest": "/lexplain-logo.png" },
+    { "src": "/changelog.json", "dest": "/changelog.json" },
+    { "src": "/john-wambui.jpg", "dest": "/john-wambui.jpg" },
+    { "src": "/robots.txt", "dest": "/robots.txt" },
+    { "src": "/sitemap.xml", "dest": "/sitemap.xml" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
