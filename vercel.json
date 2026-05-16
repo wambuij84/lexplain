@@ -1,6 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/api/:path*", "destination": "/api/:path*" },
-    { "source": "/((?!assets/).*)", "destination": "/index.html" }
+  "routes": [
+    { "src": "/assets/index-EuHnLSKB.js", "dest": "/assets/index-EuHnLSKB.js" },
+    { "src": "/assets/vendor-n9kvUQ0L.js", "dest": "/assets/vendor-n9kvUQ0L.js" },
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
