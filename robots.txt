@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lexplain.app/sitemap.xml
